@@ -24,6 +24,7 @@ main {
 	top: 0;
 	left: 0;
 	background: hotpink;
+	/* clip-path: circle(반지름 at 가로위치값 세로위치값) */
 	clip-path: circle(10% at 100% 50%);
 	transition: 0.5s;
 }
