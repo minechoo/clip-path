@@ -24,8 +24,9 @@ main {
 	top: 0;
 	left: 0;
 	background: hotpink;
-	clip-path: polygon(0% 0%, 50% 0%, 50% 50%, 50% 100%, 0 100%);
+	clip-path: circle(10% at 100% 50%);
+	transition: 0.5s;
 }
 .upper:hover {
-	clip-path: polygon(0% 0%, 50% 0%, 100% 50%, 50% 100%, 0 100%);
+	clip-path: circle(50% at 100% 50%);
 }
